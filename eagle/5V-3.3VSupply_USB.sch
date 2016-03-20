@@ -16801,7 +16801,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="J1" library="con-jack" deviceset="DCJ0303" device="" value="DCIN"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="" value="PWR SW"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="200"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/2V" value="200"/>
 <part name="VR1" library="mylib2" deviceset="TL431-INLINE" device="" value="TLE431"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/7" value="2.2k"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="100k"/>
