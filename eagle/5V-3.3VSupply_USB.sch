@@ -16861,7 +16861,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="R4" gate="G$1" x="60.96" y="142.24" rot="R180"/>
 <instance part="R5" gate="G$1" x="76.2" y="142.24" rot="R180"/>
 <instance part="R6" gate="1" x="88.9" y="142.24" rot="R90"/>
-<instance part="IC3" gate="A" x="78.74" y="121.92"/>
+<instance part="IC3" gate="A" x="78.74" y="121.92" rot="MR180"/>
 <instance part="IC3" gate="B" x="137.16" y="149.86"/>
 <instance part="SUPPLY14" gate="GND" x="66.04" y="104.14"/>
 <instance part="SUPPLY15" gate="GND" x="101.6" y="134.62"/>
@@ -17120,11 +17120,11 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="+IN"/>
 <wire x1="68.58" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="124.46" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
 <junction x="68.58" y="142.24"/>
+<pinref part="IC3" gate="A" pin="-IN"/>
+<wire x1="71.12" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -17162,16 +17162,16 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="A" pin="-IN"/>
 <wire x1="58.42" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="116.84" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
-<junction x="66.04" y="119.38"/>
 <pinref part="VR1" gate="G$1" pin="R"/>
 <wire x1="60.96" y1="116.84" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <junction x="60.96" y="119.38"/>
+<pinref part="IC3" gate="A" pin="+IN"/>
+<wire x1="71.12" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
+<junction x="66.04" y="119.38"/>
 </segment>
 </net>
 </nets>
